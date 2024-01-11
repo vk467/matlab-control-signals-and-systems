@@ -1,0 +1,10 @@
+clc;
+clear all;
+close all;
+wn=2;
+zeta=0.3;
+kp=100;
+kd=100;
+s=tf('s');
+s1=((kp+s*kd)*wn^2)/(s^2 +((2*wn*zeta)+(kd*wn^2))*s +(kp*wn^2));
+stepplot(s1);

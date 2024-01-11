@@ -1,0 +1,3 @@
+In this section we will describe the steps of the key schedule. 
+This includes the Permuted Choice 1, the shift operation and Permuted Choice 2 steps. 
+Of these, PC1 is only applied once initially, whereas the shift operation and PC2 are applied in each round.
